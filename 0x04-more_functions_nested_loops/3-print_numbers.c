@@ -1,18 +1,12 @@
+#include <stdio.h>
 #include "main.h"
-
 /**
-*print_numbers - print 0123456789
-* owned by Bwave ICT
-*Return: void
+* mul - multiplies two integers
+* @a: first integer
+* @b: second integer
+* Return: addition of a and b
 */
-
-void print_numbers(void)
+int mul(int a, int b)
 {
-	char c;
-
-	for (c = '0'; c <= '9'; c++)
-	{
-	_putchar(c);
-	}
-	_putchar('\n');
-}
+	return (a * b);
+}}
