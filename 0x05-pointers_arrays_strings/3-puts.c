@@ -1,11 +1,12 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
- * _puts - prints a string
- * @str: the string
- *
- * Return: the length of the string
+ * _puts - function that prints a string, followed by a new line, to stdout
+ * @str: pointer value
+ * Return: Always 0 (Successkris)
  */
+
 void _puts(char *str)
 {
 	int i = 0;
